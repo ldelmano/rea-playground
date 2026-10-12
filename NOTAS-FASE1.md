@@ -36,3 +36,12 @@
   - api.github.com: só no install.sh.
   - npm: em `rea update`.
 - Nenhum texto tentando dar instruções ao agente foi achado no pacote nem na skill.
+
+## Atualização: dependências extras autorizadas pelo usuário
+- jadx-headless-mcp 0.7.1, em /opt/tools.
+  - SHA-256 6e5eacf5...ff75, igual ao valor fixado em `JadxRelease.js`.
+- apktool 3.0.3, release oficial do iBotPeaches.
+  - SHA-256 dbf930b0...9423. O release não publica checksum.
+- As variáveis de ambiente ficam em /opt/tools/rea-env.sh (REA_JADX_MCP_JAR, REA_APKTOOL_COMMAND).
+- `rea inspect-apktool-client` reconhece o apktool 3.0.3.
+- O f-droid.org continua com 403 no proxy da sessão atual, mesmo depois do pedido de liberação.
